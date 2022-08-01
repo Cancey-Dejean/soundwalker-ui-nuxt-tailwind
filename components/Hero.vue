@@ -1,13 +1,6 @@
 <template>
-  <!-- <section
-    class="
-      bg-[url('~assets/images/hero.jpg')] bg-cover bg-center
-      h-[800px]
-      flex
-      items-center
-    "
-  > -->
   <section class="relative h-[800px] flex flex-col justify-center">
+    <Header />
     <img
       class="absolute object-cover w-full h-full object-center"
       :src="imageSource"
@@ -34,12 +27,13 @@
 import BigTitle from "./microComponents/BigTitle.vue";
 import CtaLink from "./microComponents/CtaLink.vue";
 import ScriptText from "./microComponents/ScriptText.vue";
+import Header from "./Header.vue";
 export default {
   name: "Hero",
   props: {
     imageName: String,
   },
-  components: { BigTitle, CtaLink, ScriptText },
+  components: { BigTitle, CtaLink, ScriptText, Header },
   computed: {
     imageSource() {
       return require(`~/assets/images/${this.imageName}.jpg`);
@@ -47,6 +41,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-</style>
