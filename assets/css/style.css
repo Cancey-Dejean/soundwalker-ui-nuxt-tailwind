@@ -1,0 +1,43 @@
+/* Fonts */
+@font-face {
+  font-family: "R-Flex";
+  src: url("../../static/fonts/R-FLEX-REGULAR.eot");
+  src: url("../../static/fonts/R-FLEX-REGULAR.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../static/fonts/R-FLEX-REGULAR.woff2") format("woff2"),
+    url("../../static/fonts/R-FLEX-REGULAR.woff") format("woff"),
+    url("../../static/fonts/R-FLEX-REGULAR.ttf") format("truetype"),
+    url("../../static/fonts/R-FLEX-REGULAR.otf") format("otf"),
+    url("../../static/fonts/R-FLEX-REGULAR.svg#R-FLEX-REGULAR") format("svg");
+}
+
+@font-face {
+  font-family: "Morganite";
+  src: url("../../static/fonts/Morganite-SemiBold.woff2") format("woff2"),
+    url("../../static/fonts/Morganite-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Morganite";
+  src: url("../../static/fonts/Morganite-SemiBoldItalic.woff2") format("woff2"),
+    url("../../static/fonts/Morganite-SemiBoldItalic.woff") format("woff");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#E1D8FF] font-body;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1800px] mx-auto;
+  }
+}

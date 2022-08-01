@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Nuxt.js &amp; Tailwind CSS Project",
+  "author": "Cancey Dejean",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/postcss8": "^1.1.3",
+    "autoprefixer": "^10.4.8",
+    "nodemon": "^1.18.9",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7"
+  }
+}
