@@ -84,3 +84,6 @@ dist
 
 # Service worker
 sw.*
+
+# Designs
+designs

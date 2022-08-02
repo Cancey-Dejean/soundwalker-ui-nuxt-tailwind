@@ -46,6 +46,6 @@
 
 @layer components {
   .container {
-    @apply max-w-[1800px] mx-auto;
+    @apply max-w-[1800px] mx-auto px-[25px] sm:px-[40px];
   }
 }

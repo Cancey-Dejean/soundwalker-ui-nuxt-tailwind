@@ -1,12 +1,16 @@
 <template>
-  <hero imageName="hero" />
+  <main>
+    <Hero imageName="hero" />
+    <Highlight />
+  </main>
 </template>
 
 <script>
 import Hero from "../components/Hero.vue";
+import Highlight from "../components/Highlight.vue";
 
 export default {
-  components: { Hero },
+  components: { Hero, Highlight },
 };
 </script>
 
