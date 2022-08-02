@@ -26,6 +26,14 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: "Autumn in November";
+  src: url("../../static/fonts/Autumn-in-November.woff2") format("woff2"),
+    url("../../static/fonts/Autumn-in-November.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

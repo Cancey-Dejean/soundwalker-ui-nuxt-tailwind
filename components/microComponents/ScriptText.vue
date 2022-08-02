@@ -1,5 +1,5 @@
 <template>
-  <p>{{ text }}</p>
+  <p class="font-cursive text-[25px] text-primary">{{ text }}</p>
 </template>
 
 <script>

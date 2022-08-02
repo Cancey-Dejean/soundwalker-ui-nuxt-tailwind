@@ -1,5 +1,17 @@
 <template>
-  <NuxtLink :to="href">{{ text }}</NuxtLink>
+  <NuxtLink
+    :to="href"
+    class="
+      inline-block
+      font-title
+      text-[32px]
+      italic
+      tracking-[1px]
+      uppercase
+      text-title
+    "
+    >{{ text }}</NuxtLink
+  >
 </template>
 
 <script>
