@@ -22,7 +22,7 @@ module.exports = {
         16: ".16",
       },
       backgroundImage: {
-        "card-hover": "linear-gradient(#fff, #fff)",
+        "card-hover": "linear-gradient(#EFEBFF, #EFEBFF)",
       },
     },
   },
